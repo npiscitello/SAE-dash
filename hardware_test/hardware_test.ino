@@ -18,6 +18,7 @@ void setup() {
 }
 
 void loop() {
+  // <MSB> P A B C D E F G <LSB>
   // turn on every LED in order
   for(int i = 0; i < 8; i++) {
     led = 0x00;
