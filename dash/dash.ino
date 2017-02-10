@@ -2,9 +2,10 @@
 #include "LedControl.h"
 
 /*  Set up MAX7221 object
- *  pin 12: data
- *  pin 13: clock
- *  pin 11: chip select
+ *  Arduino pin << function << MAX7221 pin
+ *  D12 << data << 1
+ *  D13 << clock << 13
+ *  D11 << chip select << 12
  *  There is only one MAX7221 attached 
  *  
  *  Mapping for setRow fuction:
